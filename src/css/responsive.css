@@ -1,4 +1,4 @@
-@media(max-width:375px) {
+@media(max-width:600px) {
 
     body {
         background: url(../images/bg-mobile.svg) var(--soft-medium) center center no-repeat;
