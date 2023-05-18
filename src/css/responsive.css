@@ -1,23 +1,40 @@
-@media(max-width:600px) {
 
+@media(max-width:600px) 
+{
+
+    
     body {
         background: url(../images/bg-mobile.svg) var(--soft-medium) center center no-repeat;
         background-size: cover;
 
     }
 
+    .logo{
+        width: 150px;
+        height: 30px;
+    }
+    
+    header{
+       margin-bottom: 2px; 
+       margin-left: 20px;
+    }
+
     .container {
         flex-wrap: wrap;
     }
 
+    .container .desktop{
+        margin-top: 5px;
+    }
+
     .container h1 {
-        font-size: 3rem;
+        font-size: 2rem;
         margin-bottom: 20px;
         text-align: center;
     }
 
     .container .text {
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-align: center;
     }
 
